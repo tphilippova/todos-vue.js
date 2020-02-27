@@ -75,14 +75,6 @@
 										<input v-else type="text" class="edit" v-model="todo.text" @blur="doneEdit(todo)" @keyup.enter="doneEdit(todo)" @keyup.esc="cancelEdit(todo)" v-focus>
 										<span class="close" @click="removeTodo(todo.id)">&times;</span>
 									</li>
-									<!-- <li>
-									Brush my teeth
-									<span class="material-icons edit">edit</span>
-									<span class="remove">x</span>
-								</li> -->
-								<!-- <li class="checked">
-								<span>Have breakfast</span><span class="close">x</span></li> -->
-
 								</ul>
 							</div>
 						</div>
